@@ -1,0 +1,579 @@
+/* //challenge */
+.parent{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left : 60px; 
+}
+
+.inside-parent{
+    display: flex;
+    justify-content: space-between;
+    width : 350px;
+}
+
+.child1{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;    
+}
+
+
+.child2{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;    
+}
+
+
+.child3{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;    
+}
+
+
+/* //challenge */
+
+
+.parent2{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left : 60px;     
+}
+
+.child21{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+}
+
+.child22{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+    align-self: center;
+}
+
+.child23{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+    align-self: flex-end;
+}
+
+
+
+/* //Challenge 3 */
+
+
+.parent3{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    position: relative;
+    left : 60px;     
+}
+
+.child31{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+}
+
+.child32{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+    align-self: center;
+}
+
+.child33{
+    width : 150px;
+    height : 150px;
+    background-color: black;
+    color : white;
+    align-self: flex-end;
+}
+
+
+/* //challenge 4 */
+
+.parent4{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left : 60px;
+}
+
+.child41{
+    width : 300px;
+    height : 300px;
+    background-color : black;
+    color : white;
+    position : relative;
+    top : 80px;
+}
+
+
+.child42{
+    width : 150px;
+    height : 150px;
+    background-color : rgb(236, 11, 124);
+    color : white;
+    position: absolute;
+    top : 70px;
+    left : 70px;
+}
+
+
+/* //challenge -- 5 */
+.parent5{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;
+}
+
+.child51{
+    width : 150px;
+    height : 150px;
+    background-color : black;
+    color : white;
+}
+
+.child52{
+    width : 150px;
+    height : 150px;
+    background-color : rgb(236, 11, 124);
+    color: white;
+    position: relative;
+    top : 80px;
+    right : 80px;
+}
+
+
+
+/* //challenge -- 6 */
+
+
+.parent6{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;
+    justify-content: flex-end;
+}
+
+.child61{
+    width : 400px;
+    height: 300px;
+    background-color : black;
+    display : flex;
+    align-self:flex-end;
+    color : white;
+}
+
+.child62{
+    width : 150px;
+    height: 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+    align-self:flex-end;
+    position: relative;
+    right : 28px;
+}
+
+.child63{
+    width : 150px;
+    height: 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+    position: relative;
+    left : 70px;
+}
+
+
+/* //challenge ---- 7 */
+
+.parent7{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;
+}
+
+.child71{
+    display : flex;
+    justify-content: space-between;
+    width : 400px;
+    height : 300px;
+    background-color : black;
+    color : white;
+}
+
+
+.child72{
+    display : flex;
+    width : 150px;
+    height : 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+    align-self : flex-end;
+}
+
+
+
+/* //challenge ---- 8 */
+.parent8{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;
+}
+
+.child81{
+    display : flex;
+    justify-content: space-between;
+    width : 400px;
+    height : 300px;
+    background-color : black;
+    color : white;
+}
+
+
+.child82{
+    display : flex;
+    width : 150px;
+    height : 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+}
+
+
+/* //challenge --- 9 */
+
+.parent9{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;    
+}
+
+.child91{
+    width : 250px;
+    height :400px;
+    background-color : black;
+    color : white;
+    display : flex;
+    flex-direction: column;
+}
+
+.child92{
+    width : 150px;
+    height : 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+    align-self : center;
+    position: relative;
+    top : -18px;
+}
+
+
+.child93{
+    width : 150px;
+    height : 150px;
+    background-color :rgb(236, 11, 124);
+    color : white;
+    align-self : center;
+    position: relative;
+    top : 82px;
+}
+
+
+/* //challenge - 10 */
+.parent10{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left : 60px;
+}
+
+.child101{
+    width : 600px;
+    height : 250px;
+    background-color: black;
+    color : white;
+    display: flex;
+    /* flex-direction: row; */
+    position: absolute;
+    top : 80px;
+}
+
+.child102{
+   width : 150px;
+   height: 150px;
+   background-color: rgb(236, 11, 124);
+   color : white;
+   align-self : center;    
+}
+
+.child103{
+    width : 150px;
+    height: 150px;
+    background-color: rgb(236, 11, 124);
+    color : white;
+    position: relative;
+    top : 48px;
+    left : 240px;
+}
+
+
+/* //challenge --- 11 */
+
+.parent11{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;
+}
+
+
+.child111{
+    width : 300px;
+    height : 400px;
+    background-color : black;
+    color : white;
+    display: flex;
+}
+
+.child112{
+    width : 150px;
+    height : 200px;
+    background-color: rgb(236, 11, 124);
+    color : white;
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    left : 120px;
+}
+
+
+.child113{
+    width : 100px;
+    height : 100px;
+    background-color:royalblue;
+    color : white;   
+    align-self:flex-end;
+    position: relative;
+     top : -5px;
+     right : 2px;
+}
+
+/* 
+//challenge    12 */
+
+.parent12{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;    
+}
+
+.child121{
+    width : 300px;
+    height : 400px;
+    background-color : black;
+}
+
+
+.child122{
+    width : 150px;
+    height : 200px;
+    background-color : rgb(236, 11, 124);
+    position: relative;
+    top : 190px;
+    right : 80px;
+}
+
+.child123{
+    width : 150px;
+    height : 150px;
+    background-color : rebeccapurple;
+    position: relative;
+    top : 320px;
+    right : 300px;
+}
+
+
+
+/* //challenge ---13 */
+
+.parent13{
+    width : 90%;
+    height: 500px;
+    background-color: cyan;
+    display: flex;
+    position: relative;
+    left : 60px;        
+}
+
+.child131{
+    width : 150px;
+    height :150px;
+    background-color: black;
+    color : white;
+}
+
+.child132{
+    width : 150px;
+    height :150px;
+    background-color: rebeccapurple;
+    color : white;
+    position: relative;
+    top : 70px;
+    right : 90px;
+}
+
+.child133{
+    width : 150px;
+    height :150px;
+    background-color: rgb(236, 11, 124);
+    color : white;
+    position: relative;
+    top : 130px;
+    right : 180px;
+}
+
+.child134{
+    width : 150px;
+    height :150px;
+    background-color: rgb(70, 170, 70);
+    color : white;
+    position: relative;
+    top : 200px;
+    right : 280px;
+}
+
+.child135{
+    width : 150px;
+    height :150px;
+    background-color: #ec0be1;
+    color : white;
+    position: relative;
+    top : 270px;
+    right : 370px;
+}
+
+
+
+/* //challenge ---- 14 */
+.parent14{
+    width : 90%;
+    height: 400px;
+    background-color: cyan;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left : 60px; 
+}
+
+.child141{
+    width : 300px;
+    height : 250px;
+    background-color : black;
+    display: flex;
+    color : white;
+}
+
+.child142{
+    width : 150px;
+    height : 150px;
+    background-color :rgb(236, 11, 124);
+    align-self: flex-end;
+    position: relative;
+    right : 30px;
+    color : white;
+}
+
+
+
+
+/* //challenge -- 15 */
+
+
+.div-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 650px;    
+    background-color: cyan;
+    position: relative;
+    left : 300px;
+  }
+  
+  .div-min {
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: black;
+  }
+  
+  .div-max {
+    height: 300px;
+    width: 300px;
+    color: white;
+    background-color: rgb(236, 11, 124);
+  }
+  
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container-2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 230px;
+  }
+
+
